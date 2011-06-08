@@ -8,10 +8,10 @@
     <string name="new_game_label">New Game</string>
     <string name="about_label">About</string>
     <string name="exit_label">Goodbye!</string>    
+    <string name="main_label">Go back to main menu</string>    
         
         
-        
-		<string name="about_title">About Android Sudoku (Sahar Edition)</string>
+		<string name="about_title">About Android Sudoku\n(Sahar Edition)</string>
 		<string name="about_text">\
 		<b>Sudoku</b> is a logic-based number placement puzzle.
 		You start with a partially compeleted 9x9 grid, then the objective
@@ -30,5 +30,11 @@
 		<string name="music_summary">Play background music</string> 
 		<string name="hints_title">Hints</string> 
 		<string name="hints_summary">Show hints during play</string>
+		
+		<string name="new_game_title">Difficulty</string> 
+		<string name="easy_label">Easy</string> 
+		<string name="medium_label">Medium</string> 
+		<string name="hard_label">Hard</string>
+
 
 </resources>

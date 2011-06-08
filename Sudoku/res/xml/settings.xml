@@ -11,4 +11,5 @@
  		android:title="@string/hints_title"
  		android:summary="@string/hints_summary"
  		android:defaultValue="true" />
+ 	
 </PreferenceScreen>
