@@ -40,6 +40,7 @@ public class Sudoku extends Activity implements OnClickListener{
 			break;
 		case R.id.new_button:
 			openNewGameDialog();
+			break;
 		case R.id.exit_button: 
 			finish();
 			break;
