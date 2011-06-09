@@ -28,7 +28,7 @@ public class Sudoku extends Activity implements OnClickListener{
 	  aboutButton.setOnClickListener(this);
 	  View exitButton = findViewById(R.id.exit_button);
 	  exitButton.setOnClickListener(this);
-	    
+	  Log.d(TAG, "onCreate is finished");
   }
 	
 	public void onClick(View v){
@@ -39,6 +39,7 @@ public class Sudoku extends Activity implements OnClickListener{
 			startActivity(i);
 			break;
 		case R.id.new_button:
+			Log.d(TAG, "new button clicked, to go openNewGameDialog");
 			openNewGameDialog();
 			break; //DURRR
 		case R.id.exit_button: 
@@ -52,6 +53,7 @@ public class Sudoku extends Activity implements OnClickListener{
 	
 	
 	private void openNewGameDialog() {
+		Log.d(TAG, "open new game dialog");
 		//holy shit this is one confusing command. 
 		//like, all this is ONE command. 
 		//book does not explain what it does. Angry/confused.
@@ -73,6 +75,10 @@ public class Sudoku extends Activity implements OnClickListener{
 		
 		Log.d(TAG, "clicked on " + i);
 		//game starts here
+		Log.d(TAG, "Startgame");
+		Intent intent = new Intent(this, Game.class);
+		intent.putExtra(Game.KEY_DIFFICULTY, i);
+		startActivity(intent);
 	}
 		
 		
@@ -87,7 +93,7 @@ public class Sudoku extends Activity implements OnClickListener{
 		super.onCreateOptionsMenu(menu);
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.menu, menu);
-		System.out.println("hello?");
+		Log.d(TAG, "onCreteOptionsMenu");
 		return true;
 	}
 	
