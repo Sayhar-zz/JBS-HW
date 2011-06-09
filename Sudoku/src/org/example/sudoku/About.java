@@ -24,7 +24,7 @@ public class About extends Activity{
 		super.onCreateOptionsMenu(menu);
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.menu, menu);
-		System.out.println("hello?");
+		//You CAN! Good for sahar!
 		return true;
 	}
 	
