@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/textprompt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+ <Button  
+        android:id="@+id/yes"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="@string/yes"  
+        android:minHeight="92dp"  
+        android:textSize="22dp"  
+        />
+        
+ <Button  
+        android:id="@+id/no"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="@string/no"  
+        android:minHeight="92dp"  
+        android:textSize="22dp"  
+        />
+        
+    <EditText
+    android:id="@+id/animal_textbox"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint_animal"
+    />
+    <EditText
+    android:id="@+id/question_textbox"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint_question"
+    />    
+   <Button  
+        android:id="@+id/entertext"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="@string/entertext"  
+        android:minHeight="92dp"  
+        android:textSize="22dp"  
+        />     
+        
+	<Button  
+        android:id="@+id/newgame"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="@string/newgame"  
+        android:minHeight="92dp"  
+        android:textSize="22dp"  
+        />     
+          
+</LinearLayout>
+</ScrollView>

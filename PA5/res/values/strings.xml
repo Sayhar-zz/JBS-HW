@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Prompt!</string>
+    <string name="app_name">PA5-Sahar</string>
+    <string name="yes"> Yes</string>
+    <string name="no"> No</string>
+    <string name="entertext"> Send the answer</string>
+	<string name="hint_animal"> What animal? Only fill this out when asked</string>
+	<string name="hint_question"> What question? Only fill this out when asked</string>
+	<string name="newgame"> New Game</string>
+</resources>
